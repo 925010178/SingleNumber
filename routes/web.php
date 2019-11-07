@@ -11,6 +11,8 @@
 |
 */
 
+Route::any('/index','Home\IndexController@index');
+
 Route::get('/', function () {
     return view('welcome');
 });
